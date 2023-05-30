@@ -1,4 +1,3 @@
-
 # Frontend Mentor - Huddle landing page with curved sections solution
 
 This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -35,9 +34,9 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://github.com/beqarion/3-column-preview-card-component)
+- [Solution](https://github.com/beqarion/fm-jr-huddle-landing-page-with-curved-sections)
 
-- [Live Site](https://beqarion.github.io/3-column-preview-card-component/)
+- [Live Site](https://beqarion.github.io/fm-jr-huddle-landing-page-with-curved-sections/)
 
 ## My process
 
