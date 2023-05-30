@@ -8,54 +8,154 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 
 <body>
-  Try it free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does
-  your audience. Create connections with your users as you engage in genuine discussion.
-
-  Get Started For Free
-
-  1.4k+
-  Communities Formed
-
-  2.7m+
-  Messages Sent
-
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community.
-  Think of the insightful conversations you miss out on with a feedback form.
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-  vestibulum a, ultrices quis sem.
-
-  Phone: +1-543-123-4567
-  example@huddle.com
-
-  Newsletter
-  To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-  send you spam or pass on your email address
-
-  Subscribe
-
+  <header>
+    <div class="section-center header-center">
+      <img src="./images/logo.svg" alt="logo img" class="logo-img">
+      <button class="btn try-it-btn">Try it free</button>
+    </div>
+  </header>
+  <!-- HERO section -->
+  <section class="section hero-section">
+    <div class="section-center hero-center">
+      <article class="hero-banner">
+        <h1 class="banner-title">
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="banner-text">
+          Huddle re-imagines the way we build communities. You have a voice, but so does
+          your audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button class="btn banner-btn">Get Started For Free</button>
+      </article>
+      <img src="./images/screen-mockups.svg" alt="" class="img hero-img">
+    </div>
+  </section>
+  <!-- STATS -->
+  <section class="section stats">
+    <div class="section-center stats-center">
+      <!-- single stat -->
+      <div class="stat">
+        <img src="./images/icon-communities.svg" alt="" class="stat-icon">
+        <span class="stat-number">1.4k+</span>
+        <p class="stat-name">Communities Formed</p>
+      </div>
+      <!-- end of stat -->
+      <!-- single stat -->
+      <div class="stat">
+        <img src="./images/icon-messages.svg" alt="" class="stat-icon">
+        <span class="stat-number">2.7m+</span>
+        <p class="stat-name">Messages Sent</p>
+      </div>
+      <!-- end of stat -->
+    </div>
+  </section>
+  <!-- PLANS Section -->
+  <section class="section plans-section">
+    <!-- article -->
+    <article class="plan plan-1">
+      <div class="section-center plan-center plan-1-center">
+        <img src="./images/illustration-grow-together.svg" alt="" class="img plan-img">
+        <div class="plan-info">
+          <h2 class="plan-title">Grow Together</h2>
+          <p class="plan-text">
+            Generate meaningful discussions with your audience and build a strong, loyal community.
+            Think of the insightful conversations you miss out on with a feedback form.
+          </p>
+        </div>
+      </div>
+    </article>
+    <!-- end of article -->
+    <!-- article -->
+    <article class="plan plan-2">
+      <div class="section-center plan-center plan-2-center">
+        <img src="./images/illustration-flowing-conversation.svg" alt="" class="img plan-img">
+        <div class="plan-info">
+          <h2 class="plan-title">Flowing Conversations</h2>
+          <p class="plan-text">
+            You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+            just-in-time loading for a more natural flow.
+          </p>
+        </div>
+      </div>
+    </article>
+    <!-- end of article -->
+    <!-- article -->
+    <article class="plan plan-3">
+      <div class="section-center plan-center plan-3-center">
+        <img src="./images/illustration-your-users.svg" alt="" class="img plan-img">
+        <div class="plan-info">
+          <h2 class="plan-title">Your Users</h2>
+          <p class="plan-text">
+            It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+            once signed in to your app, your users can start chatting immediately.
+          </p>
+        </div>
+      </div>
+    </article>
+    <!-- end of article -->
+  </section>
+  <!-- CTA Section -->
+  <section class="section cta-section">
+    <div class="section-center cta-center">
+      <article>
+        <h2 class="cta-title">
+          Ready To Build Your Community?
+        </h2>
+        <button class="btn cta-btn">Get Started For Free</button>
+      </article>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer class="section footer">
+    <div class="section-center footer-center">
+      <!-- newsletter subscription -->
+      <article class="newsletter">
+        <h3 class="newsletter-title">Newsletter</h3>
+        <p class="newsletter-text">
+          To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+          send you spam or pass on your email address
+        </p>
+        <form action="#" class="subscribe-form">
+          <input type="email" name="mail"required>
+          <button class="btn subscribe-btn">
+            Subscribe
+          </button>
+        </form>
+      </article>
+      <!-- address column -->
+      <div class="address-col">
+        <div class="logo-container">
+        </div>
+        <p class="address">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.
+        </p>
+        <div class="phone">
+          <img src="./images/icon-phone.svg" alt="">
+          <span>Phone: +1-543-123-4567</span>
+        </div>
+        <div class="mail">
+          <img src="./images/icon-email.svg" alt="">
+          <span>example@huddle.com</span>
+        </div>
+      </div>
+      <div class="social-icons">
+        <div class="icons-container">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 </body>
 
